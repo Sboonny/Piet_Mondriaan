@@ -9,7 +9,7 @@ main {
 }
 
 .silcing-columns-big {
-  grid-template-columns: 1fr 2.5fr 6fr 2fr .75fr .25fr;
+  grid-template-columns: 1fr 2.5fr 6fr 2fr 0.75fr 0.25fr;
 }
 
 .justify-content {
@@ -17,27 +17,27 @@ main {
 }
 
 .silcing-raw-small {
-  grid-template-rows: 1fr .2fr
+  grid-template-rows: 1fr 0.2fr;
 }
 
 .margin-top {
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .border-top {
-  border-top: .5em solid;
+  border-top: 0.5em solid;
 }
 
 .border-top-small {
-  border-top: .25em solid;
+  border-top: 0.25em solid;
 }
 
 .border-right {
-  border-right: .5em solid;
+  border-right: 0.5em solid;
 }
 
 .border-bottom {
-  border-bottom: .5em solid;
+  border-bottom: 0.5em solid;
 }
 
 .background-brown {
@@ -69,7 +69,7 @@ main {
 }
 
 .width-1 {
-  width: 10%
+  width: 10%;
 }
 
 .transform-right {
