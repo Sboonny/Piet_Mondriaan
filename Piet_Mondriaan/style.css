@@ -1,6 +1,5 @@
 main {
   display: grid;
-  background-color: chocolate;
   grid-template-rows: 3fr 2fr 1fr 3fr;
   height: 100vh;
 }
@@ -9,12 +8,28 @@ main {
   display: grid;
 }
 
-.silcing {
+.silcing-columns-big {
   grid-template-columns: 1fr 2.5fr 6fr 2fr .75fr .25fr;
+}
+
+.justify-content {
+  justify-items: center;
+}
+
+.silcing-raw-small {
+  grid-template-rows: 1fr .2fr
+}
+
+.margin-top {
+  margin-top: .5em;
 }
 
 .border-top {
   border-top: .5em solid;
+}
+
+.border-top-small {
+  border-top: .25em solid;
 }
 
 .border-right {
@@ -37,6 +52,30 @@ main {
   background-color: hsl(240, 63%, 62%);
 }
 
+.height-2 {
+  height: 20%;
+}
+
+.height-5 {
+  height: 50%;
+}
+
 .height-7 {
   height: 70%;
+}
+
+.height-8 {
+  height: 80%;
+}
+
+.width-1 {
+  width: 10%
+}
+
+.transform-right {
+  transform: translate(25%, 0);
+}
+
+.transform-bottom {
+  transform: translate(0, 75%);
 }
