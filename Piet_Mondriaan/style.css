@@ -18,44 +18,63 @@
   grid-template-columns: 0.25fr repeat(3, 1fr) 0.25fr;
 }
 
-/* .margin-top {
+.margin-top-2 {
   margin-top: 0.5em;
-} */
-
-.border{
-  border: 0.5em solid
-}
-/* 
-.border-top {
-  border-top: 0.5em solid;
 }
 
-.border-right {
-  border-right: 0.5em solid;
+.margin-right-2 {
+  margin-right: .5em
 }
 
-.border-bottom {
-  border-bottom: 0.5em solid;
-} */
-
-
-.border-black {
-  border-color: hsl(0, 0 ,0);
+.margin-bottom-2 {
+  margin-bottom: .5em
 }
 
-/* .border-yellow {
+.margin-left-2 {
+  margin-left: .5em
+}
+
+.border-top-width {
+  border-top-width: 0.5em;
+}
+
+.border-right-width {
+  border-right-width: 0.5em;
+}
+
+.border-bottom-width {
+  border-bottom-width: 0.5em;
+}
+
+.border-left-width {
+  border-left-width: 0.5em;
+}
+
+.border-right-style-solid {
+  border-right-style: solid;
+}
+
+.border-bottom-style-solid {
+  border-bottom-style: solid;
+}
+
+.border-left-style-solid {
+  border-left-style: solid;
+}
+
+.border-color-yellow {
   border-color: hsl(59, 100%, 50%);
 }
 
-.border-brown {
+.border-color-brown {
   border-color: hsl(7, 100%, 50%);
 }
 
-.border-blue {
+.border-color-blue {
   border-color: hsl(240, 63%, 62%);
-}
+} 
 
-.height-2 {
+/* .height-2 {
   height: 20%;
 }
 
@@ -69,7 +88,7 @@
 
 .height-8 {
   height: 80%;
-} */
+}  */
 
 .height-full {
   height: 100vh;
