@@ -11,11 +11,15 @@
 }
 
 .silcing-raw-big {
-  grid-template-rows: repeat(4, 1fr) .75fr;
+  grid-template-rows: .4fr repeat(4, 1fr) .75fr;
 }
 
 .silcing-columns-big {
-  grid-template-columns: 0.25fr repeat(3, 1fr) 0.25fr;
+  grid-template-columns: 0.35fr repeat(3, 1fr);
+}
+
+.margin-0 {
+  margin: 0
 }
 
 .margin-top-2 {
@@ -35,19 +39,19 @@
 }
 
 .border-top-width {
-  border-top-width: 0.5em;
+  border-top-width: 1em;
 }
 
 .border-right-width {
-  border-right-width: 0.5em;
+  border-right-width: 1em;
 }
 
 .border-bottom-width {
-  border-bottom-width: 0.5em;
+  border-bottom-width: 1em;
 }
 
 .border-left-width {
-  border-left-width: 0.5em;
+  border-left-width: 1em;
 }
 
 .border-top-style-solid {
@@ -90,6 +94,9 @@
   height: 20%;
 }
 
+.height-6 {
+  height: 60%;
+}
 
 .height-7 {
   height: 70%;
@@ -111,10 +118,46 @@
   transform: translate(0, -10%);
 }
 
-.transform-right {
-  transform: translate(25%, 0);
+.transform-bottom {
+  transform: translate(0, 50%);
 }
 
-.transform-bottom {
-  transform: translate(0, 75%);
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute
+}
+
+.right-low-5 {
+  right: 5%
+}
+
+.right-2 {
+  right: 20%
+}
+
+.right-3 {
+  right: 30%
+}
+
+.right-4 {
+  right: 40%
+}
+
+.right-6 {
+  right: 60%
+}
+
+.right-7 {
+  right: 70%
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  z-index: 999;
 }
