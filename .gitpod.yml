@@ -1,2 +1,3 @@
 tasks:
-  - init: cd Piet_Mondriaan | npm run dev
+  - init: npm i
+    command: cd Piet_Mondriaan && npm run dev
